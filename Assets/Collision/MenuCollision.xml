@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Boxes>
+    <group x = "-1" y = "0" w = "1" h = "720" flag = "platform"/>
+    <group x = "0" y = "0" w = "1280" h = "1" flag = "platform"/>    
+    <group x = "0" y = "719" w = "1280" h = "2" flag = "platform"/>
+    <group x = "1200" y = "0" w = "1" h = "720" flag = "platform"/>
+    <group x = "400" y = "360" w = "200" h = "100" flag = "Play"/>
+    <group x = "680" y = "360" w = "200" h = "100" flag = "Quit"/>
+</Boxes>
