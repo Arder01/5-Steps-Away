@@ -41,6 +41,9 @@
     <Filter Include="SRC\Animation">
       <UniqueIdentifier>{397841d2-ac68-45cb-b0e7-defd103fddbd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SRC\Level">
+      <UniqueIdentifier>{baff0884-6aae-481c-bbb6-03c6a15c15b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -84,6 +87,9 @@
     </ClCompile>
     <ClCompile Include="SpriteAnimation.cpp">
       <Filter>SRC\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>SRC\Level</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +137,9 @@
     </ClInclude>
     <ClInclude Include="SpriteAnimation.h">
       <Filter>SRC\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>SRC\Level</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

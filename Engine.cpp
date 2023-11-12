@@ -19,10 +19,6 @@ bool Engine::Init() {
 		SDL_Log("Failed to create window :%s", SDL_GetError());
 		return false;
 	}
-	/*Menu = SDL_CreateRenderer(window, 0, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-	if (Menu == nullptr) {
-		SDL_Log("Failed to render Menu: %s", SDL_GetError());
-	}*/
 	Level1 = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	if (Level1 == nullptr) {
 		SDL_Log("Failed to render : %s", SDL_GetError());

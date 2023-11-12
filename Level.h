@@ -4,11 +4,11 @@
 #include "define.h"
 #include "Collision.h"
 
-class Engine
+class Level
 {
 public:
-	static Engine* GetInstance() {
-		return s_Instance = (s_Instance != NULL) ? s_Instance : new Engine();
+	static Level* GetInstance() {
+		return s_Instance = (s_Instance != NULL) ? s_Instance : new Level();
 	}
 	bool Init();
 	void Clean();
@@ -18,17 +18,17 @@ public:
 	void Render();
 	void Events();
 	SDL_Renderer* GetRender() {
-		return Level1;
+		return MainMenu;
 	}
 	bool IsRunning() {
 		return m_IsRunning;
 	}
 private:
-	Engine() {}
+	Level() {}
 	bool m_IsRunning;
 
 	SDL_Window* window;
-	SDL_Renderer* Level1;
-	static Engine* s_Instance;
+	SDL_Renderer* MainMenu;
+	static Level* s_Instance;
 };
 
